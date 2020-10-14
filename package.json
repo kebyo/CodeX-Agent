@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "pkg": "pkg index.js"
   },
   "author": "Oybek Muslimov",
   "license": "ISC",
@@ -12,5 +12,8 @@
     "dotenv": "^8.2.0",
     "node-cron": "^2.0.3",
     "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "pkg": "^4.4.9"
   }
 }

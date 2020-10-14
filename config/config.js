@@ -1,7 +1,9 @@
 require('dotenv').config();
 
-exports.module = {
-    API_URL: process.env.API_URL,
-    MINUTES: process.env.MINUTES,
-    SECONDS: process.env.SECONDS,
+const config = {
+    apiUrl: process.env.API_URL,
+    minutes: process.env.MINUTES,
+    seconds: process.env.SECONDS,
 }
+
+module.exports.config = config;
